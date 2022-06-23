@@ -2,9 +2,13 @@
   "name": "coolnodeapp",
   "version": "1.0.0",
   "description": "node app ",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
   "start": "node index.js"
+    "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.2.3"
+}
 },
   "repository": {
   "type": "git",
@@ -16,4 +20,4 @@
   "url": ""
 },
   "homepage": ""
-}
+},
